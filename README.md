@@ -9,10 +9,10 @@ Developed by [lxndr](https://github.com/lxndr).
 If you are using ArchLinux, there is a [PKGBUILD](https://gist.github.com/Rahix/a297457945ab236551c9ffbe5f6b9052).
 For all other systems use the following instructions:
 
-Make sure you have libsquish installed on your system. After compiling with
+After compiling with
 
 ```console
 make
 ```
 
-move file-vtf to `~/.gimp-2.8/plug-ins/`.
+move `file-vtf` to `~/.gimp-2.8/plug-ins/`.
