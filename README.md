@@ -18,7 +18,7 @@ Install the requiring libraries:
 
 - `liblcms2-dev`
 
-cd into the new directory, then make `file-vtf` with:
+`cd` into the new directory, then compile `file-vtf` with:
 ```console 
 make
 ```
