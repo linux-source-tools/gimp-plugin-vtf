@@ -14,10 +14,19 @@ Clone the git repository into a folder you want to save it to:
 git clone https://github.com/linux-source-tools/gimp-plugin-vtf.git
 ```
 
-Install the requiring libraries:
+Install the required libraries:
 - `libgimp2.0-dev`
 
 - `liblcms2-dev`
+
+- `libsquish-dev`
+
+- `libsquish0`
+
+On debian-based distributions you can install all of these with:
+```bash
+sudo apt install libgimp2.0-dev liblcms2-dev libsquish-dev libsquish0
+```
 
 `cd` into the new directory, then make `file-vtf` with:
 ```console 
